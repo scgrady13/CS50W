@@ -1,0 +1,124 @@
+.nav {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nitem {
+  margin: 10px;
+}
+
+.center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  z-index: 3;
+  height: 44px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: calc(632px + 6px);
+  width: 584px;
+  max-width: 584px;
+  margin-top: 15px;
+}
+
+.google-btn {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: Roboto, airal, sans-serif !important;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.google-btn:hover {
+  border: 1px solid white;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:link {
+  color: black !important;
+}
+
+a:visited {
+  color: black !important;
+}
+
+a:hover {
+  color: black !important;
+}
+
+a:active {
+  color: black !important;
+}
+
+.advancesearch {
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
+}
+
+.hr-line {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.find-advance {
+  font-size: 16px;
+  color: #333333;
+}
+
+.div-advance {
+  margin: 20px;
+}
+
+.input-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.left {
+  width: 200px;
+  font-size: 13px;
+  vertical-align: middle;
+}
+.right {
+  width: 500px;
+}
+.btn-div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  width: 700px;
+}
+
+.btn-advance {
+  box-shadow: none !important;
+  background-color: #4d90fe !important;
+  border: 1px solid #3079ed !important;
+  color: white !important;
+}
+
+.btn-advance:hover {
+  background-color: #3079ed !important;
+}
